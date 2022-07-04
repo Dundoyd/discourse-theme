@@ -130,10 +130,11 @@ body {
   border-right-color: rgba(48,46,81,0.9);
   border-bottom-color: rgba(57,56,97,0.9);
   border-left-color: rgba(48,46,81,0.9);
+  box-shadow: 0 3px 6px rgb(0, 0, 0, 0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
   border-radius: 4px;
 }
 .topic-list-item, tr {
-  box-shadow: rgb(30 30 52 / 90%) 0px 1px 0px 0px inset;
+  box-shadow: rgb(30, 30, 52, 0.90) 0px 1px 0px 0px inset;
   border: 1px solid rgba(48, 46, 81, 0.9);
 }
 .d-header-icons .d-icon {
