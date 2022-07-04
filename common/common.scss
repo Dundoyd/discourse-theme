@@ -63,7 +63,11 @@ body {
 .d-header {
   left: 0;
   height: 4em;
-  background-color: #473674;
+  color: #fff;
+  background: rgba(40,39,68,0.98);
+  text-shadow: 1px 2px 2px #000;
+  position: relative;
+  border-bottom: 1px solid rgba(48,46,81,0.9);
 }
 .custom-search-banner-wrap {
   box-sizing: border-box;
