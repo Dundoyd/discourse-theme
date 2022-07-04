@@ -97,7 +97,7 @@ body {
 }
 .nav-pills>li.active>a, .nav-pills>li>a.active {
   color: var(--primary);
-  font-weight: 500;
+  font-size: var(--font-0);
   background-color: var(--secondary);
   /* border-bottom: 3px solid var(--tertiary); */
   height: 100%;
