@@ -53,6 +53,45 @@ body textarea {
 }
 
 // Custom Styles
+body {
+  background: url(https://sencestudios.com/dust_texture.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.d-header {
+  left: 0;
+  height: 4em;
+  background-color: #473674;
+}
+.nav-pills>li>a {
+  border: none;
+  padding: 6px 12px;
+  /* color: var(--primary); */
+  text-transform: capitalize;
+  color: white;
+  font-size: var(--font-up-1);
+  line-height: var(--line-height-small);
+  box-sizing: border-box;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+.nav-pills>li>a:hover {
+  color: #473674;
+  background-color: var(--quaternary-low);
+}
+.select-kit .select-kit-header .selected-name {
+  text-align: left;
+  flex: 0 1 auto;
+  align-items: center;
+  color: inherit;
+  display: flex;
+  outline: none;
+  text-transform: capitalize;
+}
 .d-header-icons .d-icon {
     color: white;
 }
