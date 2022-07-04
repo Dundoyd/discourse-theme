@@ -151,6 +151,33 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+.widget-button.btn.create {
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: -18px;
+  background-color: rgba(44,43,74,0.9);
+  box-shadow: 0 0 4pxrgba(0,0,0,0.14),0 4px 8px rgba(0,0,0,0.28);
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  transition: right 0.5s, bottom 0.5s, border-radius 0.5s, text-indent 0.2s, visibility 1s, width 0.2s ease, height 0.5s ease 0.4s, color 0.5s, background-color 2s, transform 0.5s;
+}
+#create-topic.btn-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4pxrgba(0,0,0,0.14),0 4px 8px rgba(0,0,0,0.28);
+  transition: right 0.5s, bottom 0.5s, border-radius 0.5s, text-indent 0.2s, visibility 1s, width 0.2s ease, height 0.5s ease 0.4s, color 0.5s, background-color 2s, transform 0.5s;
+  padding: 0;
+  margin: 0;
+  width: 63px;
+  z-index: 399;
+  background-color: rgba(44,43,74,0.9);
+  color: var(--secondary);
+  white-space: nowrap;
+  overflow: hidden;
+}
 .d-header-icons .d-icon {
     color: white;
 }
