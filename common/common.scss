@@ -103,6 +103,11 @@ body {
   outline: none;
   text-transform: capitalize;
 }
+.alert.alert-info {
+  color: rgba(224,224,224,0.8);
+  background: rgba(44,43,74,0.9);
+  border-color: #333358;
+}
 .d-header-icons .d-icon {
     color: white;
 }
