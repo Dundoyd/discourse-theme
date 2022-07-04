@@ -146,8 +146,10 @@ body {
   border-radius: 2px!important;
   padding: 12px 20px 0 20px!important;
 }
-.a {
-  color: #807e86;
+a {
+  color: #807e86!important;
+  text-decoration: none;
+  cursor: pointer;
 }
 .d-header-icons .d-icon {
     color: white;
