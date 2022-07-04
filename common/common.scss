@@ -156,7 +156,7 @@ a {
   position: absolute;
   top: 50px;
   left: -18px;
-  background-color: rgba(44,43,74,0.9);
+  background-color: rgba(44,43,74,0.9)!important;
   box-shadow: 0 0 4pxrgba(0,0,0,0.14),0 4px 8px rgba(0,0,0,0.28);
   overflow: hidden;
   width: 60px;
@@ -173,7 +173,7 @@ a {
   margin: 0;
   width: 63px;
   z-index: 399;
-  background-color: rgba(44,43,74,0.9);
+  background-color: rgba(44,43,74,0.9)!important;
   color: var(--secondary);
   white-space: nowrap;
   overflow: hidden;
