@@ -138,13 +138,13 @@ body {
   border: 1px solid rgba(48, 46, 81, 0.9);
 }
 .topic-body {
-  box-shadow: 0 2px 5px 0rgba(0,0,0,0.16),0 0 0 0rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0rgba(0,0,0,0.16),0 0 0 0rgba(0,0,0,0.12)!important;
   /* background-color: var(--lighter-secondary); */
   margin-top: 10px;
-  background: rgba(40,39,68,0.9);
-  border: 1pxsolidrgba(48,46,81,0.9);
-  border-radius: 2px;
-  padding: 12px 20px 0 20px;
+  background: rgba(40,39,68,0.9)!important;
+  border:   rgba(48,46,81,0.9)!important;
+  border-radius: 2px!important;
+  padding: 12px 20px 0 20px!important;
 }
 .a {
   color: #807e86;
